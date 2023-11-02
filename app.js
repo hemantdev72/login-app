@@ -10,8 +10,8 @@ const saltRounds=2;
 const session=require('express-session');
 const passport=require('passport');
 const passportLocalMongoose=require('passport-local-mongoose');
-const clientId='158864938820-m81jdsi6679a2oqlmpmpc69l90rhbsb8.apps.googleusercontent.com';
-const clientSecret='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';
+const clientId='15886';
+const clientSecret='GOCS';
 const GoogleStrategy=require('passport-google-oauth20').Strategy;
 const findorcreate=require('mongoose-findorcreate');
 
